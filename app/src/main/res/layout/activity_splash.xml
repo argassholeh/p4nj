@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Muhammad Solehudin
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    android:layout_weight="1"
+    tools:context=".splash">
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="150dp"
+        android:id="@+id/imageView"
+        android:layout_width="200sp"
+        android:layout_height="150sp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logonj" />
+
+    <TextView
+        android:id="@+id/tp4nj"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="P4NJ"
+        android:textColor="#387C1F"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/tJember"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tp4nj"
+        android:layout_marginTop="5dp"
+        android:text="JEMBER"
+        android:textColor="#387C1F"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tJember"
+        android:layout_marginTop="100dp"
+        android:text="# Di Jamin Bermanfaat"
+        android:textColor="#387C1F"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

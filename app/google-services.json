@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "1086533531509",
+    "firebase_url": "https://aplikasi-p4nj-jember-57ae6.firebaseio.com",
+    "project_id": "aplikasi-p4nj-jember-57ae6",
+    "storage_bucket": "aplikasi-p4nj-jember-57ae6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086533531509:android:9039e9cd01cda322",
+        "android_client_info": {
+          "package_name": "com.example.sholeh_attadzkirah.alumniunuja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWTu7JcdNW1c6qe7VI_9RtvrLml6Xz3pY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086533531509-4ilpb5ud1ujjejl06u5gnkgp15t7sfgi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

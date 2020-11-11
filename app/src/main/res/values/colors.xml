@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Muhammad Solehudin
+  -->
+
+<resources>
+    <color name="colorPrimary">#11b359</color>
+    <color name="colorPrimaryDark">#aeea00</color>
+    <color name="colorAccent">#d50000</color>
+    <color name="lightgray">#ededed</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#757575</color>
+    <color name="blue">#0288d1</color>
+    <color name="signupColor">#066e8a</color>
+    <color name="red">#d50000</color>
+    <color name="green">#00bfa5</color>
+    <color name="black">#000</color>
+    <color name="greentua">#459B11</color>
+    <color name="greentua2">#c6ff00</color>
+    <color name="yellow">#ffff00</color>
+
+    <color name="text">#3b3b3b</color>
+    <color name="textsub">#aaaaaa</color>
+
+    <color name="greenPrimaryDark">#068b3d</color>
+    <color name="greenPrimary">#11b359</color>
+    <color name="greenAccent">#38de6f</color>
+    <color name="bluelight">#004B85</color>
+    <color name="orange">#E48515</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="background">#e5e5e5</color>
+
+
+
+
+
+
+
+
+</resources>

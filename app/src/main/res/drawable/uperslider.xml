@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--
+  ~ Copyright (c) Muhammad Solehudin
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/listview_background_shape">
+
+
+    <gradient
+        android:startColor="#BF2EA556"
+        android:endColor="#BF20833C"
+        android:angle="90"
+        >
+
+    </gradient>
+
+    <!--<solid-->
+        <!--android:color="#"></solid>-->
+    </shape>

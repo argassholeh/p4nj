@@ -1,0 +1,12 @@
+<!--
+  ~ Copyright (c) Muhammad Solehudin
+  -->
+
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">#68940B</item>
+    </style>
+</resources>

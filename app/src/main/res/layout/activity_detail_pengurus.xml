@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Muhammad Solehudin
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailPengurus">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        android:background="@drawable/recttoolbar"
+        app:titleTextColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <ImageView
+
+               android:id="@+id/image_detailprofile"
+               android:layout_width="match_parent"
+               android:layout_height="300dp"
+               android:layout_gravity="center"
+               android:layout_marginTop="15dp"
+               android:padding="10dp"
+               android:scaleType="centerCrop"
+               android:src="@drawable/ic_orang_grey_24dp" />
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="0.9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:padding="4dp"
+                                    android:text="Nama"
+                                    android:textSize="14dp" />
+
+                                <TextView
+
+                                    android:id="@+id/tv_detailnama"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:hint=".."
+                                    android:padding="3dp"
+                                    android:textSize="12dp" />
+
+                                <requestFocus />
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="#B1B1B1"></View>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:padding="4dp"
+                                    android:text="Jabatan"
+                                    android:textSize="14dp" />
+
+                                <TextView
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp"
+                                    android:id="@+id/tv_detailJabatan"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:hint=".."
+                                    android:padding="3dp"
+                                    android:textSize="12dp" />
+
+                                <requestFocus />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="#B1B1B1"></View>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:padding="4dp"
+                                    android:text="Devisi"
+                                    android:textSize="14dp" />
+
+                                <TextView
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp"
+                                    android:id="@+id/tv_detailDevisi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:hint=".."
+                                    android:padding="3dp"
+                                    android:textSize="12dp" />
+
+                                <requestFocus />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="#B1B1B1"></View>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:padding="4dp"
+                                    android:text="Masa Bakti"
+                                    android:textSize="14dp" />
+
+                                <TextView
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp"
+                                    android:id="@+id/tv_detail_masa_bakti"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:hint=".."
+                                    android:padding="3dp"
+                                    android:textSize="12dp" />
+
+                                <requestFocus />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="#B1B1B1"></View>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:padding="4dp"
+                                    android:text="Email"
+                                    android:textSize="14dp" />
+
+                                <TextView
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp"
+                                    android:id="@+id/tv_detailemail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:hint=".."
+                                    android:padding="3dp"
+                                    android:textSize="12dp" />
+
+                                <requestFocus />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="#B1B1B1"></View>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:padding="4dp"
+                                    android:text="No Hp"
+                                    android:textSize="14dp" />
+
+                                <TextView
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp"
+                                    android:id="@+id/tv_detail_nohp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:hint=".."
+                                    android:padding="3dp"
+                                    android:textSize="12dp" />
+
+                                <requestFocus />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="#B1B1B1"></View>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:padding="4dp"
+                                    android:text="Akun Fb "
+                                    android:textSize="14dp" />
+
+                                <TextView
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp"
+                                    android:id="@+id/tv_detail_Akun_fb"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:hint=".."
+                                    android:padding="3dp"
+                                    android:textSize="12dp" />
+
+                                <requestFocus />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="#B1B1B1"></View>
+
+                            </LinearLayout>
+
+                            <!--//-->
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <!--//-->
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

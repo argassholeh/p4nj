@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Muhammad Solehudin
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_color="@color/yellow"
+                    app:civ_border_width="1dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/ic_orang_grey_24dp"
+                    android:id="@+id/imagecircle_profile"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingTop="5dp"
+                    android:scaleType="centerCrop"
+
+                   />
+
+
+
+                <LinearLayout
+                    android:id="@+id/l_ex"
+                    android:gravity="right"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:padding="10dp"
+                        android:id="@+id/btn_exit_profile"
+                        android:background="@drawable/ic_exit_"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#102631"
+                            android:id="@+id/tv_namaProfil"
+                            android:textSize="18dp"
+                            android:textAlignment="textStart"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nama" />
+                        <Button
+                            android:id="@+id/btn_EditProfil"
+                            android:layout_below="@+id/tv_namaProfil"
+                            android:paddingTop="5dp"
+                            android:textSize="12sp"
+                            android:textAppearance="?android:textAppearance"
+                            android:textColor="#102631"
+                            android:padding="1dp"
+                            android:background="@drawable/round2"
+                            android:layout_marginLeft="15dp"
+                            android:text="Edit Profil"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp" />
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearTask"
+                android:layout_marginTop="5dp"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="5dp"
+                    android:textSize="16dp"
+                    android:text="DOMPETKU"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/saldonya"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="Rp 0"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:padding="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/round2"
+                        android:layout_marginRight="5dp"
+                        android:layout_alignParentRight="true"
+                        android:textAppearance="?android:textAppearance"
+                        android:text="Tambah Saldo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp" />
+
+
+                </RelativeLayout>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+
+
+                                <TextView
+                                   android:padding="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="No Hp"
+                                    android:textSize="14dp"
+                                    android:layout_marginBottom="5dp"/>
+                                <TextView
+                                    android:id="@+id/tv_NoHP_a"
+                                    android:padding="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint=".."
+                                    android:textSize="12dp"
+                                    android:layout_marginBottom="5dp"/>
+                                <requestFocus/>
+                                <View
+                                    android:background="#B1B1B1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"></View>
+                                <TextView
+                                    android:padding="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Pekerjaan"
+
+                                    android:textSize="14dp"
+                                    android:layout_marginBottom="5dp"/>
+                                <TextView
+                                    android:id="@+id/tv_Pekerjaan_a"
+                                    android:padding="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint=".."
+                                    android:textSize="12dp"
+                                    android:layout_marginBottom="5dp"/>
+                                <requestFocus/>
+
+                                <View
+                                    android:background="#B1B1B1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"></View>
+                                <TextView
+                                    android:padding="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Bidang Usaha"
+                                    android:textSize="14dp"
+                                    android:layout_marginBottom="5dp"/>
+                                <TextView
+                                    android:id="@+id/tv_BidangUsaha_A"
+                                    android:padding="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint=".."
+                                    android:textSize="12dp"
+                                    android:layout_marginBottom="5dp"/>
+                                <requestFocus/>
+                                <View
+                                    android:background="#B1B1B1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"></View>
+                                <TextView
+                                    android:padding="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="FB"
+                                    android:textSize="14dp"
+                                    android:layout_marginBottom="5dp"/>
+                                <TextView
+                                    android:id="@+id/tvakunFb_a"
+                                    android:padding="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint=".."
+                                    android:textSize="12dp"
+                                    android:layout_marginBottom="5dp"/>
+                                <requestFocus/>
+                                <View
+                                    android:background="#B1B1B1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"></View>
+                                <TextView
+                                    android:padding="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Email"
+                                    android:textSize="14dp"
+                                    android:layout_marginBottom="5dp"/>
+                                <TextView
+                                    android:id="@+id/tv_Email_a"
+                                    android:padding="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint=".."
+                                    android:textSize="12dp"
+                                    android:layout_marginBottom="5dp"/>
+                                <requestFocus/>
+                                <View
+                                    android:background="#B1B1B1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"></View>
+                                <TextView
+                                android:padding="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="User Name"
+                                android:textSize="14dp"
+                                android:layout_marginBottom="5dp"/>
+                                <TextView
+                                    android:id="@+id/tv_UserName_a"
+                                    android:padding="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint=".."
+                                    android:textSize="12dp"
+                                    android:layout_marginBottom="5dp"/>
+                                <requestFocus/>
+                                <View
+                                    android:background="#B1B1B1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"></View>
+
+                            </LinearLayout>
+
+                            <!--//-->
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+                </ScrollView>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/floating_action_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        fab:menu_animationDelayPerItem="55"
+        fab:menu_backgroundColor="@android:color/transparent"
+        fab:menu_buttonSpacing="0dp"
+        fab:menu_colorNormal="#0FAD87"
+        fab:menu_colorPressed="#D8F8F3"
+        fab:menu_colorRipple="#99d4d4d4"
+        fab:menu_fab_size="normal"
+        fab:menu_icon="@drawable/fab_add"
+        fab:menu_labels_colorNormal="#333"
+        fab:menu_labels_colorPressed="#444"
+        fab:menu_labels_colorRipple="#66efecec"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_ellipsize="none"
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_margin="0dp"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_padding="8dp"
+        fab:menu_labels_position="left"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        fab:menu_labels_showShadow="true"
+        fab:menu_labels_singleLine="false"
+        fab:menu_labels_textColor="#f2f1f1"
+        fab:menu_labels_textSize="15sp"
+        fab:menu_openDirection="up"
+        fab:menu_shadowColor="#66aff198"
+        fab:menu_shadowRadius="4dp"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="4dp"
+        fab:menu_showShadow="true">
+
+
+
+
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:background="#17BD95"
+            android:id="@+id/fb_tambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_person_add"
+            fab:fab_label="Tambah Data"
+            fab:fab_size="mini"
+            fab:fab_colorNormal="@color/background"
+            fab:fab_colorPressed="@color/colorPrimaryDark"/>
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>
